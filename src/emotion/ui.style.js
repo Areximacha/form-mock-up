@@ -19,6 +19,11 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #26a69a;
+  }
 `
 
 const RequiredField = styled.i`
